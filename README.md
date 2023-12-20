@@ -29,7 +29,7 @@ To see a live demo of the project, please visit : https://yashrkm-redux-mini-e-c
 
 ## Contributing
 
-If you would like to contribute to this Course Hub project, please open an issue or submit a pull request. All contributions are welcome!
+If you would like to contribute to this project, please open an issue or submit a pull request. All contributions are welcome!
 
 ## Contact 
 
