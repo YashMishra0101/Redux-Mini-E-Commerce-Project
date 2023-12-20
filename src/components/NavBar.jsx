@@ -10,7 +10,7 @@ function NavBar() {
           <li>
             <NavLink to="/">
               <img
-                src="src\assets\logo.png"
+                src="src/assets/logo.png"
                 alt="logo"
                 className="w-44 h-16 lg:ml-9 ml-2"
               />
