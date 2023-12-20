@@ -6,14 +6,13 @@
 
 <img src="src/assets/Screenshot (66).png">
 
-Welcome to my final practice project in React.js! This mini e-commerce website focuses on implementing Redux Toolkit for state management, utilizing HTML5, Tailwind CSS, React.js, Axios for data fetching, and React Router for navigation.
-
+Welcome to my final practice project in React.js.This mini e-commerce website focuses on implementing Redux Toolkit for state management, utilizing HTML5, Tailwind CSS, React.js, Axios for data fetching, and React Router for navigation.
 ## Features
 
 - Browse through multiple items
 - Add and remove items to/from the cart
 - View selected items in the checkout section
-- Play a funny song when clicking the checkout button
+- Play a song when clicking the checkout button  
 
 ## Technologies Used
 
