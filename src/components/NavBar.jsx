@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCartArrowDown } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
+import logo from '../assets/logo.png'
 
 function NavBar() {
   return (
@@ -10,7 +11,7 @@ function NavBar() {
           <li>
             <NavLink to="/">
               <img
-                src="src/assets/logo.png"
+                src={logo}
                 alt="logo"
                 className="w-44 h-16 lg:ml-9 ml-2"
               />
