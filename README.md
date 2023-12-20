@@ -25,7 +25,7 @@ Welcome to my final practice project in React.js.This mini e-commerce website fo
 
 ## 🌐 Project Demo 
 
-To see a live demo of the project, please visit :
+To see a live demo of the project, please visit : https://yashrkm-redux-mini-e-commerce-website.vercel.app/
 
 ## Contributing
 
