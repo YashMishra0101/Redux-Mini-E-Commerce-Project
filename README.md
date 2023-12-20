@@ -1,4 +1,4 @@
-# React Mini E-Commerce Website Project
+# Redux Mini E-Commerce Website Project
 
 <img src="src/assets/Screenshot (62).png">
 
