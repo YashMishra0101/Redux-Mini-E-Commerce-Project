@@ -10,7 +10,7 @@ export const cardsSlice = createSlice({
         return [...state, action.payload];
     },
     removeFromCart: (state,action) => {
-        return state.filter((item) => item.id !== action.payload.id);
+        return state.filter((item) => item.id !== action.payload);
     },
   },
 });

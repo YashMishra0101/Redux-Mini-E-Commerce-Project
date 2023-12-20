@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch} from 'react-redux';
 import { addToCart,removeFromCart } from "../../redux/slices/CardsSlice";
 import {toast} from 'react-toastify'
 
@@ -13,14 +13,14 @@ function Cards({ info }) {
   const add = () => {
     dispatch(addToCart(info));
     setAddCart(!addCart);
-    toast.success('Product Added', {
+    toast.success('Item Added', {
     })
   };
 
   const remove = () => {
     dispatch(removeFromCart(info.id));
     setAddCart(!addCart);
-    toast.info('Product Removed', {
+    toast.info('Item Removed', {
     })
   };
 

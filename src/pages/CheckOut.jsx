@@ -67,7 +67,7 @@ function CheckOut() {
               </span>
               <button
                 className="deleteButton bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-800 transition duration-200"
-                onClick={() => deleted(item)}>
+                onClick={() => deleted(item.id)}>
                 <MdDeleteForever />
               </button>
             </div>
@@ -80,3 +80,4 @@ function CheckOut() {
 
 export default CheckOut;
 
+  
