@@ -12,7 +12,6 @@ const ApiFetch = () => {
       try {
         const response = await axios.get(API_URL);
         setData(response.data);
-        console.log(data);
       } catch (error) {
         console.log(error);
       } finally {
