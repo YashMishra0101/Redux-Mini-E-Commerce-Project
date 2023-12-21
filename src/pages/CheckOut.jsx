@@ -8,7 +8,7 @@ import { removeFromCart } from "../redux/slices/CardsSlice";
 import ramji from "../assets/ramji.mp3"
 
 function CheckOut() {
-  const cartItems = useSelector((state) => state.carts);
+  const cartItems = useSelector((state) => state.carts); //we are accessing all the updated data from the store
   const dispatch = useDispatch();
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
   const audio = new Audio(ramji);
