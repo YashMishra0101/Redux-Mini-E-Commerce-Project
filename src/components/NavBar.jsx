@@ -22,7 +22,7 @@ function NavBar() {
               <NavLink to="/">Home</NavLink>
             </li>
             <li className="my-auto text-3xl text-white md:mr-0 -mr-5">
-              <NavLink to="/checkout">
+              <NavLink to="checkout">
                 <FaCartArrowDown />
               </NavLink>
             </li>
